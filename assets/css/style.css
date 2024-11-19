@@ -7,3 +7,20 @@
   color: var(--bs-primary-bg-subtle);
 }
 
+div#hero-search-container {
+  justify-content: center !important;
+  display: flex;
+}
+
+
+@media only screen and (max-width: 992px) {
+  form#hero-search-form {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  form#hero-search-form {
+    width: 50%;
+  }
+}
