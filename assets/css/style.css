@@ -1,0 +1,9 @@
+#hero-search {
+  background-color: rgba(0,0,0,.7);
+  border-radius: 5px;
+}
+
+#hero-search::placeholder {
+  color: var(--bs-primary-bg-subtle);
+}
+
