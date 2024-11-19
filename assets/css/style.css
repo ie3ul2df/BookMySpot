@@ -80,3 +80,14 @@ div#hero-search-container {
   align-items: center;
   margin-top: 0;
 }
+
+/*--------------- Team Section ---------------*/
+section#team {
+  padding: 150px 0 150px 0;
+}
+
+@media only screen and (max-width: 575px) {
+  section#team {
+    padding: 50px 0 50px 0;
+  }
+}
