@@ -1,19 +1,5 @@
 /*--------------- global styles ---------------*/
 
-html, body {
-  height: 100%;
-  margin: 0;
-}
-
-body {
-  display: flex;
-  flex-direction: column;
-}
-
-main {
-  flex: 1;
-}
-
 @media (min-width: 768px) {
   section {
       padding: 75px 0;
