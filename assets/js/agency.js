@@ -60,49 +60,76 @@
 //_____________________________________ Navbar Active Section _____________________________________//
 
 document.addEventListener("DOMContentLoaded", function () {
-  const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
-
-  // Add click event listener to update active class
-  navLinks.forEach(link => {
-      link.addEventListener('click', function () {
-          // Remove active class from all links
-          navLinks.forEach(nav => nav.classList.remove('active'));
-          // Add active class to clicked link
-          this.classList.add('active');
-      });
-  });
-});
-
-document.addEventListener("DOMContentLoaded", function () {
   const sections = document.querySelectorAll("section"); // Select all sections
-  const navLinks = document.querySelectorAll(".navbar-nav .nav-link");
+  const navLinks = document.querySelectorAll(".navbar-nav .nav-link"); // All navbar links
+  const currentURL = window.location.href; // Current page URL
 
-  // Function to update the active class based on scroll position
-  const updateActiveNav = () => {
-      let currentSection = "";
+  // Function to highlight the active page link
+  const setActivePage = () => {
+    navLinks.forEach(link => {
+      const linkHref = link.href;
 
-      sections.forEach(section => {
-          const sectionTop = section.offsetTop - 100; // Offset to account for navbar height
-          const sectionHeight = section.offsetHeight;
-          const scrollPosition = window.pageYOffset;
-
-          if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
-              currentSection = section.getAttribute("id");
-          }
-      });
-
-      navLinks.forEach(link => {
-          link.classList.remove("active");
-          if (link.getAttribute("href").includes(currentSection)) {
-              link.classList.add("active");
-          }
-      });
+      // Special handling for Home (index.html)
+      if (
+        (currentURL.includes("index.html") && linkHref.includes("index.html")) || // Matches index.html
+        (currentURL === linkHref && linkHref.includes("#")) || // Matches sections on the same page
+        (currentURL.endsWith("/") && linkHref.includes("index.html")) // Root URL (e.g., https://example.com/)
+      ) {
+        link.classList.add("active");
+      } else if (currentURL === linkHref) {
+        link.classList.add("active");
+      } else {
+        link.classList.remove("active");
+      }
+    });
   };
 
-  // Call the function on scroll
-  document.addEventListener("scroll", updateActiveNav);
-  // Call it once on page load to set the correct active link
-  updateActiveNav();
+  // Function to update active class for section-based scrolling
+  const updateActiveNav = () => {
+    let currentSection = "";
+
+    sections.forEach(section => {
+      const sectionTop = section.offsetTop - 100; // Offset for fixed navbar height
+      const sectionHeight = section.offsetHeight;
+      const scrollPosition = window.pageYOffset;
+
+      if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
+        currentSection = section.getAttribute("id");
+      }
+    });
+
+    // Update the active class for section-based links
+    navLinks.forEach(link => {
+      if (link.getAttribute("href") && link.getAttribute("href").includes(`#${currentSection}`)) {
+        link.classList.add("active");
+      } else if (!currentSection) {
+        // Clear active for section-based navigation if no match
+        link.classList.remove("active");
+      }
+    });
+  };
+
+  // Call page-based active function on load
+  setActivePage();
+
+  // Call the function on scroll for section-based navigation (only on index.html)
+  if (currentURL.includes("index.html") || currentURL.endsWith("/")) {
+    document.addEventListener("scroll", updateActiveNav);
+
+    // Call section-based function once on page load for same-page sections
+    updateActiveNav();
+  }
+
+  // Add click event listeners to navbar links for immediate active feedback
+  navLinks.forEach(link => {
+    link.addEventListener("click", function () {
+      // Clear active classes from all links
+      navLinks.forEach(nav => nav.classList.remove("active"));
+
+      // Add active class to clicked link
+      this.classList.add("active");
+    });
+  });
 });
 
 
