@@ -2,14 +2,15 @@
 
 ## Table of Contents
 
-1. [Introduction](#introduction)
-2. [Technologies Used](#technologies-used)
-3. [Features](#features)
+1. [Description](#Description)
+2. [Features](#features)
+3. [Technologies](#technologies-used)
 4. [Installation](#installation)
 5. [User Stories](#user-stories)
-6. [Credits](#credits)
-7. [License](#license)
-8. [Contact Me](#contact)
+6. [UX Design](#UX-Design)
+7. [Credits](#credits)
+8. [License](#license)
+9. [Contact Me](#contact)
 
 ## Description
 
@@ -66,7 +67,9 @@ BookMySpot is a web application designed to connect drivers in need of parking s
 - **Accessibility Features**:
   - Incorporating screen reader compatibility and keyboard navigation to accommodate users with disabilities.
 
-## Technologies Used So Far
+## Technologies
+
+### Technologies Used So Far
 
 - HTML
 - CSS
@@ -96,7 +99,7 @@ BookMySpot is a web application designed to connect drivers in need of parking s
    ```
 3. Open `index.html` in your browser.
 
-### User Stories for BookMySpot
+### User Stories
 
 #### Administrator
 
@@ -141,7 +144,7 @@ BookMySpot is a web application designed to connect drivers in need of parking s
 4. As a **User**, I want to reset my password if I forget it so I can regain access to my account.
 5. As a **User**, I want to receive email notifications for booking confirmations or updates so I stay informed.
 
-## UX Design
+## UX-Design
 
 ### User Research
 
