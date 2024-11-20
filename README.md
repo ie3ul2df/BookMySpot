@@ -9,6 +9,7 @@
 5. [User Stories](#user-stories)
 6. [Credits](#credits)
 7. [License](#license)
+8. [Contact Me](#contact)
 
 ## Description
 
