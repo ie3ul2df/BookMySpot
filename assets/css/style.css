@@ -99,3 +99,15 @@ body#login-page-body {
   background-size: cover;
   min-height: 100vh;
 }
+
+/*--------------- about us - team member - clickable modal ---------------*/
+img.card-img-top.rounded-circle.mx-auto.mt-4 {
+  cursor: pointer;
+  transition: transform 0.5s ease-in-out; 
+  filter: drop-shadow(2px 4px 6px black);
+}
+
+img.card-img-top.rounded-circle.mx-auto.mt-4:hover {
+  transform: scale(1.1); 
+  filter: drop-shadow(0px 0px 15px black);
+}
