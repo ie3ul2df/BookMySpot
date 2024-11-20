@@ -9,9 +9,10 @@
 5. [User Stories](#user-stories)
 6. [UX Design](#UX-Design)
 7. [Testing](#Testing)
-8. [Credits](#credits)
-9. [License](#license)
-10. [Contact Me](#contact)
+8. [Deployment](#Deployment)
+9. [Credits](#credits)
+10. [License](#license)
+11. [Contact Me](#contact)
 
 ## Description
 
@@ -301,7 +302,7 @@ To ensure the quality and compliance of the code with web standards, the followi
 
 ### Bug Tracking
 
-- Any bugs found during testing were logged and resolved. If you could foing any bug please use [Contact](#Contact) part and inform me. Thanks.
+- Any bugs found during testing were logged and resolved. If you could find any bug please use [Contact](#Contact) part and inform me. Thanks.
 
 ### Testing Results
 
@@ -322,8 +323,10 @@ The deployed version of this project can be accessed at the following URL:
 
 ### Tutorials & Documentation
 
+- Code Institute for frontend tutorials: [Codeinstitute](https://codeinstitute.net/)
 - W3Schools for HTML, CSS, and JavaScript tutorials: [W3Schools](https://www.w3schools.com)
 - MDN Web Docs for JavaScript and web standards: [MDN Web Docs](https://developer.mozilla.org/)
+- Chatgpt for refinements and brainstormings [Chatgpt](https://chatgpt.com)
 
 ### Libraries & Frameworks
 
@@ -354,12 +357,8 @@ The deployed version of this project can be accessed at the following URL:
 
 ### Third-Party APIs
 
-- Google Maps API for map features: [Google Maps API](https://developers.google.com/maps)
-- Stripe API for payments: [Stripe API](https://stripe.com/docs/api)
-
-### Licenses
-
-- MIT License for open-source libraries: [MIT License](https://opensource.org/licenses/MIT)
+- Google Maps API for map features, will be added in the next releases: [Google Maps API](https://developers.google.com/maps)
+- Stripe API for payments, will be added in the next releases: [Stripe API](https://stripe.com/docs/api)
 
 ### Tools & Software
 
@@ -367,9 +366,9 @@ The deployed version of this project can be accessed at the following URL:
 - GitHub for version control: [GitHub](https://github.com/)
 - Git for version control: [Git](https://git-scm.com/)
 
-## License
+### Licenses
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+- MIT License for open-source libraries: [MIT License](https://opensource.org/licenses/MIT)
 
 ## Contact
 
