@@ -8,9 +8,10 @@
 4. [Installation](#installation)
 5. [User Stories](#user-stories)
 6. [UX Design](#UX-Design)
-7. [Credits](#credits)
-8. [License](#license)
-9. [Contact Me](#contact)
+7. [Testing](#Testing)
+8. [Credits](#credits)
+9. [License](#license)
+10. [Contact Me](#contact)
 
 ## Description
 
@@ -152,14 +153,6 @@ Before starting the design, research was conducted to understand the target user
 
 - **Target Audience**: The main users are drivers looking for parking spaces and parking space owners willing to rent out their spots.
 - **User Needs**: Drivers need a quick and easy way to find and book parking spots. Parking space owners need an intuitive way to list, manage, and update their parking spots.
-
-### User Stories
-
-The following user stories were defined to guide the design and development process:
-
-1. **Admin**: Can manage users, parking listings, and platform settings.
-2. **Parking Space Owner**: Can list parking spaces, manage availability, set rates, and view bookings.
-3. **Driver**: Can search for and book parking spots.
 
 ### Information Architecture
 
@@ -308,7 +301,7 @@ To ensure the quality and compliance of the code with web standards, the followi
 
 ### Bug Tracking
 
-- Any bugs found during testing were logged and resolved. Detailed steps and solutions were added to the `bugs` section.
+- Any bugs found during testing were logged and resolved. If you could foing any bug please use [Contact](#Contact) part and inform me. Thanks.
 
 ### Testing Results
 
