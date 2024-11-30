@@ -16,6 +16,20 @@
   margin-top: 150px;
 }
 
+.theme-dark-color{
+  color: var(--bs-dark);
+}
+.theme-light-color{
+  color: var(--bs-primary);
+}
+
+.footer-bg{
+  background: linear-gradient( white, #222529), var(--bs-primary);
+}
+.home-footer-bg{
+  background: linear-gradient(#222529, white), var(--bs-primary);
+}
+
 /*--------------- Hero search input styles ---------------*/
 #hero-search {
   background-color: rgba(0,0,0,.7);
@@ -53,7 +67,7 @@ div#hero-search-container {
 
 
 .timeline>li .timeline-image {
-  background-color: #000;
+  background-color: var(--bs-dark);
   max-width: 100%;
   max-height: 100%;
   display: flex;
@@ -103,12 +117,55 @@ section#team {
   }
 }
 
-/*--------------- Login page background gif animation ---------------*/
-body#login-page-body {
+
+/*--------------- Social media icons hover ---------------*/
+.list-inline-item a {
+  color: #fed136; 
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.list-inline-item a:hover {
+  color: #212529; 
+  transform: translateY(-5px); 
+}
+
+
+
+
+/*--------------- Home Page - Contact form ---------------*/
+
+#sendMessageButton {
+  background-color: #fed136;
+  color: var(--bs-dark);
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#sendMessageButton:hover {
+  background-color: #f0c12a;
+  color: var(--bs-dark);
+  transform: scale(1.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+/* --------------- Login page --------------- */
+
+
+/* body#login-page-body {
   background-image: url(https://i.pinimg.com/originals/01/a0/c3/01a0c3ccfbad7b1a116c020cfc669352.gif);
   background-size: cover;
   min-height: 100vh;
+} */
+
+.login-register-btns:hover{
+  color: var(--bs-dark);
+  scale: .95;
 }
+
 
 /*--------------- about us - team member - clickable modal ---------------*/
 img.card-img-top.rounded-circle.mx-auto.mt-4 {
