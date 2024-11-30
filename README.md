@@ -315,79 +315,66 @@ To ensure the quality and compliance of the code with web standards, the followi
 
 This project going to have all the below pages in the next releases:
 
-Home
-├── Search Parking Spots
-│ ├── Map View
-│ └── Filter Options (Date, Price, Location)
-├── Featured Listings
-└── Call to Action
-├── Sign Up
-└── Login
-
-About Us
-├── Team Members (with Modals)
-├── Mission & Vision
-└── Contact Information
-
-Privacy Policy
-
-User Authentication
-├── Login
-├── Registration
-│ ├── Driver Registration
-│ └── Parking Space Owner Registration
-└── Password Reset
-
-Dashboard (Role-Based)
-├── Admin Dashboard
-│ ├── Manage Users
-│ ├── Manage Listings
-│ ├── Reports & Analytics
-│ └── Handle User Issues
-│
-├── Parking Space Owner Dashboard
-│ ├── Manage Listings
-│ ├── Calendar Availability
-│ ├── Pricing Settings (Hourly/Daily)
-│ ├── Booking Requests
-│ └── Reviews & Ratings
-│
-└── Driver Dashboard
-├── Search & Book Spots
-├── Booking History
-├── Manage Profile
-└── Reviews & Ratings
-
-Search Results
-├── List View
-└── Map View
-
-Booking Process
-├── Booking Details
-├── Payment
-└── Confirmation Page
-
-User Profile
-├── View Profile
-├── Edit Information
-├── Change Password
-└── Booking History
-
-Contact Us
-├── Contact Form
-└── Support Information
-
-FAQ / Help Center
-├── Common Queries
-└── How-to Guides
-
-Legal
-├── Terms of Service
-└── Privacy Policy
-
-Error Pages
-├── 404 Not Found
-└── 500 Server Error
+- **Home**
+  - Search Parking Spots
+    - Map View
+    - Filter Options (Date, Price, Location)
+  - Featured Listings
+  - Call to Action
+    - Sign Up
+    - Login
+- **About Us**
+  - Team Members
+  - Mission & Vision
+  - Contact Information
+- **Privacy Policy**
+- **User Authentication**
+  - Login
+  - Registration
+    - Driver Registration
+    - Parking Space Owner Registration
+  - Password Reset
+- **Dashboard (Role-Based)**
+  - Admin Dashboard
+    - Manage Users
+    - Manage Listings
+    - Reports & Analytics
+    - Handle User Issues
+  - Parking Space Owner Dashboard
+    - Manage Listings
+    - Calendar Availability
+    - Pricing Settings (Hourly/Daily)
+    - Booking Requests
+    - Reviews & Ratings
+  - Driver Dashboard
+    - Search & Book Spots
+    - Booking History
+    - Manage Profile
+    - Reviews & Ratings
+- **Search Results**
+  - List View
+  - Map View
+- **Booking Process**
+  - Booking Details
+  - Payment
+  - Confirmation Page
+- **User Profile**
+  - View Profile
+  - Edit Information
+  - Change Password
+  - Booking History
+- **Contact Us**
+  - Contact Form
+  - Support Information
+- **FAQ / Help Center**
+  - Common Queries
+  - How-to Guides
+- **Legal**
+  - Terms of Service
+  - Privacy Policy
+- **Error Pages**
+  - 404 Not Found
+  - 500 Server Error
 
 ## Deployment
 
