@@ -9,10 +9,11 @@
 5. [User Stories](#user-stories)
 6. [UX Design](#UX-Design)
 7. [Testing](#Testing)
-8. [Deployment](#Deployment)
-9. [Credits](#credits)
-10. [License](#license)
-11. [Contact Me](#contact)
+8. [Site-map](#site-map)
+9. [Deployment](#Deployment)
+10. [Credits](#credits)
+11. [License](#license)
+12. [Contact Me](#contact)
 
 ## Description
 
@@ -309,6 +310,84 @@ To ensure the quality and compliance of the code with web standards, the followi
 - **HTML Validator**: No major issues were found after running the validation.
 - **CSS Validator**: A few minor warnings were addressed, ensuring proper syntax and consistency across all styles.
 - **Autoprefixer**: All relevant CSS rules were successfully prefixed to ensure compatibility across browsers.
+
+## Site-map
+
+This project going to have all the below pages in the next releases:
+
+Home
+├── Search Parking Spots
+│ ├── Map View
+│ └── Filter Options (Date, Price, Location)
+├── Featured Listings
+└── Call to Action
+├── Sign Up
+└── Login
+
+About Us
+├── Team Members (with Modals)
+├── Mission & Vision
+└── Contact Information
+
+Privacy Policy
+
+User Authentication
+├── Login
+├── Registration
+│ ├── Driver Registration
+│ └── Parking Space Owner Registration
+└── Password Reset
+
+Dashboard (Role-Based)
+├── Admin Dashboard
+│ ├── Manage Users
+│ ├── Manage Listings
+│ ├── Reports & Analytics
+│ └── Handle User Issues
+│
+├── Parking Space Owner Dashboard
+│ ├── Manage Listings
+│ ├── Calendar Availability
+│ ├── Pricing Settings (Hourly/Daily)
+│ ├── Booking Requests
+│ └── Reviews & Ratings
+│
+└── Driver Dashboard
+├── Search & Book Spots
+├── Booking History
+├── Manage Profile
+└── Reviews & Ratings
+
+Search Results
+├── List View
+└── Map View
+
+Booking Process
+├── Booking Details
+├── Payment
+└── Confirmation Page
+
+User Profile
+├── View Profile
+├── Edit Information
+├── Change Password
+└── Booking History
+
+Contact Us
+├── Contact Form
+└── Support Information
+
+FAQ / Help Center
+├── Common Queries
+└── How-to Guides
+
+Legal
+├── Terms of Service
+└── Privacy Policy
+
+Error Pages
+├── 404 Not Found
+└── 500 Server Error
 
 ## Deployment
 
