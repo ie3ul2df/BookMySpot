@@ -6,6 +6,16 @@
   }
 }
 
+.aj-mt-100{
+  margin-top: 100px;
+}
+.aj-mt-125{
+  margin-top: 125px;
+}
+.aj-mt-150{
+  margin-top: 150px;
+}
+
 /*--------------- Hero search input styles ---------------*/
 #hero-search {
   background-color: rgba(0,0,0,.7);
