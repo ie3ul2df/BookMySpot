@@ -4,6 +4,12 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta name="author" content="BookMySpot Team">
+    <meta name="keywords"
+        content="About BookMySpot, parking services, parking solutions, drivers and owners, parking rentals, team information">
+    <meta name="description"
+        content="Learn more about BookMySpot, the team behind the platform, and our mission to simplify parking management for both drivers and spot owners.">
+
     <title>BookMySpot | Home</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700&amp;display=swap">
@@ -17,48 +23,59 @@
 
 <body id="about-page-body" data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="54">
 
-    <!-- //_____________________________________ Navbar _____________________________________// -->
-    <nav class="navbar navbar-expand-lg fixed-top bg-dark navbar-dark" id="mainNav">
-        <div class="container">
-            <a class="navbar-brand" href="index.html">
-                <img src="assets/img/logo2.png" alt="site logo" style="padding-bottom: 0px; height: 45px;">
-            </a>
-            <button data-bs-toggle="collapse" data-bs-target="#navbarResponsive" class="navbar-toggler" type="button"
-                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                <i class="fa fa-bars"></i>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ms-auto text-uppercase">
-                    <!-- Home dropdown -->
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="homeDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Home
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="homeDropdown">
-                            <li><a class="dropdown-item" href="index.html#features">Features</a></li>
-                            <li><a class="dropdown-item" href="index.html#how-to-use">How It Works?</a></li>
-                            <li><a class="dropdown-item" href="index.html#testimonials">Testimonials</a></li>
-                            <li><a class="dropdown-item" href="index.html#team">Team</a></li>
-                            <li><a class="dropdown-item" href="index.html#contact">Contact</a></li>
-                        </ul>
-                    </li>
-                    <!-- Other nav items -->
-                    <li class="nav-item"><a class="nav-link" href="about-us.html">About-us</a></li>
-                    <li class="nav-item"><a class="nav-link" href="privacy.html">Privacy and Policies</a></li>
-                    <li class="nav-item"><a class="nav-link" href="login_register.html">Login / Register</a></li>
-                </ul>
+    <header>
+        <!-- //_____________________________________ Navbar _____________________________________// -->
+        <nav class="navbar navbar-expand-lg fixed-top bg-dark navbar-dark" id="mainNav" aria-label="Main Navigation">
+            <div class="container">
+                <a class="navbar-brand" href="index.html" aria-label="Go to Home Page">
+                    <img src="assets/img/logo2.png" alt="BookMySpot site logo" class="site-logo-style">
+                </a>
+                <button data-bs-toggle="collapse" data-bs-target="#navbarResponsive" class="navbar-toggler"
+                    type="button" aria-controls="navbarResponsive" aria-expanded="false"
+                    aria-label="Toggle navigation menu">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto text-uppercase">
+                        <!-- Home dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="index.html" id="homeDropdown" role="button"
+                                aria-expanded="false" aria-haspopup="true" aria-label="Home Section Menu">
+                                Home
+                            </a>
+                            <ul class="dropdown-menu bg-dark" aria-labelledby="homeDropdown">
+                                <li><a class="dropdown-item text-light" href="index.html#features"
+                                        aria-label="Features Section">Features</a></li>
+                                <li><a class="dropdown-item text-light" href="index.html#how-to-use"
+                                        aria-label="How It Works Section">How It Works?</a></li>
+                                <li><a class="dropdown-item text-light" href="index.html#testimonials"
+                                        aria-label="Testimonials Section">Testimonials</a></li>
+                                <li><a class="dropdown-item text-light" href="index.html#team"
+                                        aria-label="Team Section">Team</a></li>
+                                <li><a class="dropdown-item text-light" href="index.html#contact"
+                                        aria-label="Contact Section">Contact</a></li>
+                            </ul>
+                        </li>
+                        <!-- Other nav items -->
+                        <li class="nav-item"><a class="nav-link" href="about-us.html"
+                                aria-label="About Us Page">About-us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="privacy.html"
+                                aria-label="Privacy and Policies Page">Privacy and Policies</a></li>
+                        <li class="nav-item"><a class="nav-link" href="login_register.html"
+                                aria-label="Login or Register Page">Login / Register</a></li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </header>
 
 
     <!--_____________________________________ About Us Page Body _____________________________________-->
     <!-- Hero Section -->
-    <section class="bg-dark text-light text-center py-5" style="margin-top: 70px;">
+    <section class="bg-primary text-light text-center py-5 aj-mt-75">
         <div class="container">
-            <h1 class="display-4">About Us</h1>
-            <p class="lead">We are passionate about delivering the best solutions to meet your needs.</p>
+            <h1 class="display-4 text-dark">About Us</h1>
+            <p class="lead text-dark">We are passionate about delivering the best solutions to meet your needs.</p>
         </div>
     </section>
 
@@ -128,8 +145,8 @@
                 <div class="col-md-4">
                     <div class="card border-0">
                         <img src="assets/img/about/pro-1.avif" alt="Team Member"
-                            class="card-img-top rounded-circle mx-auto mt-4" style="width: 150px; height: 150px;"
-                            data-bs-toggle="modal" data-bs-target="#teamMember1">
+                            class="card-img-top rounded-circle mx-auto mt-4 team-member-image" data-bs-toggle="modal"
+                            data-bs-target="#teamMember1">
                         <div class="card-body">
                             <h5 class="card-title" data-bs-toggle="modal" data-bs-target="#teamMember1">John Doe</h5>
                             <p class="card-text">CEO & Founder</p>
@@ -140,8 +157,8 @@
                 <div class="col-md-4">
                     <div class="card border-0">
                         <img src="assets/img/about/pro-2.avif" alt="Team Member"
-                            class="card-img-top rounded-circle mx-auto mt-4" style="width: 150px; height: 150px;"
-                            data-bs-toggle="modal" data-bs-target="#teamMember2">
+                            class="card-img-top rounded-circle mx-auto mt-4 team-member-image" data-bs-toggle="modal"
+                            data-bs-target="#teamMember2">
                         <div class="card-body">
                             <h5 class="card-title" data-bs-toggle="modal" data-bs-target="#teamMember2">Jane Smith</h5>
                             <p class="card-text">Chief Marketing Officer</p>
@@ -152,8 +169,8 @@
                 <div class="col-md-4">
                     <div class="card border-0">
                         <img src="assets/img/about/pro-3.avif" alt="Team Member"
-                            class="card-img-top rounded-circle mx-auto mt-4" style="width: 150px; height: 150px;"
-                            data-bs-toggle="modal" data-bs-target="#teamMember3">
+                            class="card-img-top rounded-circle mx-auto mt-4 team-member-image" data-bs-toggle="modal"
+                            data-bs-target="#teamMember3">
                         <div class="card-body">
                             <h5 class="card-title" data-bs-toggle="modal" data-bs-target="#teamMember3">Mike Johnson
                             </h5>
@@ -165,16 +182,16 @@
         </div>
     </section>
 
-    <!-- Modals for Team Members -->
     <!-- Team Member 1 Modal -->
-    <div class="modal fade" id="teamMember1" tabindex="-1" aria-labelledby="teamMember1Label" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
+    <div class="modal fade" id="teamMember1" tabindex="-1" aria-labelledby="teamMember1Label" aria-hidden="true"
+        role="dialog">
+        <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title" id="teamMember1Label">John Doe</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="modal-body">
+                <div class="modal-body" id="teamMember1Desc">
                     <p>John Doe is the visionary behind BookMySpot. With over 15 years of experience in tech startups,
                         he leads the team with passion and innovation.</p>
                     <p><strong>Email:</strong> john.doe@example.com</p>
@@ -186,14 +203,15 @@
     </div>
 
     <!-- Team Member 2 Modal -->
-    <div class="modal fade" id="teamMember2" tabindex="-1" aria-labelledby="teamMember2Label" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
+    <div class="modal fade" id="teamMember2" tabindex="-1" aria-labelledby="teamMember2Label" aria-hidden="true"
+        role="dialog">
+        <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title" id="teamMember2Label">Jane Smith</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="modal-body">
+                <div class="modal-body" id="teamMember2Desc">
                     <p>Jane Smith drives our marketing strategy, ensuring that BookMySpot reaches the right audience.
                         She specializes in digital campaigns and brand growth.</p>
                     <p><strong>Email:</strong> jane.smith@example.com</p>
@@ -205,14 +223,15 @@
     </div>
 
     <!-- Team Member 3 Modal -->
-    <div class="modal fade" id="teamMember3" tabindex="-1" aria-labelledby="teamMember3Label" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
+    <div class="modal fade" id="teamMember3" tabindex="-1" aria-labelledby="teamMember3Label" aria-hidden="true"
+        role="dialog">
+        <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title" id="teamMember3Label">Mike Johnson</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
-                <div class="modal-body">
+                <div class="modal-body" id="teamMember3Desc">
                     <p>Mike Johnson leads the development team, ensuring top-notch performance and scalability. He is an
                         expert in backend architecture and cloud solutions.</p>
                     <p><strong>Email:</strong> mike.johnson@example.com</p>
@@ -223,29 +242,40 @@
         </div>
     </div>
 
-
-    <!-- //_____________________________________ Footer _____________________________________// -->
-
-    <footer class="footer-bg">
-        <div class=" container">
+    <!-- Footer -->
+    <footer class="footer-bg" aria-labelledby="footer-heading">
+        <div class="container">
             <div class="row">
-                <div class="col-md-4"><span class="copyright">Copyright&nbsp;© BookMySpot 2024</span></div>
+                <div class="col-md-4">
+                    <span id="footer-heading" class="copyright">Copyright&nbsp;© BookMySpot 2024</span>
+                </div>
                 <div class="col-md-4">
                     <ul class="list-inline social-buttons">
-                        <li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li class="list-inline-item"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                        <li class="list-inline-item">
+                            <a href="#" aria-label="Follow us on Twitter"><i class="fa fa-twitter"></i></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" aria-label="Follow us on Facebook"><i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" aria-label="Connect with us on LinkedIn"><i class="fa fa-linkedin"></i></a>
+                        </li>
                     </ul>
                 </div>
                 <div class="col-md-4">
                     <ul class="list-inline quicklinks">
-                        <li class="list-inline-item"><a href="privacy.html">Privacy Policy</a></li>
-                        <li class="list-inline-item"><a href="about-us.html">About US</a></li>
+                        <li class="list-inline-item">
+                            <a href="privacy.html" aria-label="Read our Privacy Policy">Privacy Policy</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="about-us.html" aria-label="Learn more about us">About Us</a>
+                        </li>
                     </ul>
                 </div>
             </div>
         </div>
     </footer>
+
 
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/agency.js"></script>

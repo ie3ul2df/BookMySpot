@@ -6,6 +6,12 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta name="author" content="BookMySpot Team">
+    <meta name="keywords"
+        content="BookMySpot, parking spots, rent parking, drivers, parking management, parking availability, parking map">
+    <meta name="description"
+        content="BookMySpot helps drivers find and book available parking spaces while allowing parking spot owners to rent out their spots. Easy booking, flexible management, and a seamless experience for drivers and owners alike.">
+
     <title>BookMySpot | Home</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700&amp;display=swap">
@@ -20,70 +26,83 @@
 
 <body id="page-top" data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="54">
 
-    <!-- //_____________________________________ Navbar _____________________________________// -->
-    <nav class="navbar navbar-expand-lg fixed-top bg-dark navbar-dark" id="mainNav">
-        <div class="container">
-            <a class="navbar-brand" href="index.html">
-                <img src="assets/img/logo2.png" alt="site logo" style="padding-bottom: 0px; height: 45px;">
-            </a>
-            <button data-bs-toggle="collapse" data-bs-target="#navbarResponsive" class="navbar-toggler" type="button"
-                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                <i class="fa fa-bars"></i>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ms-auto text-uppercase">
-                    <!-- Home dropdown -->
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="homeDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Home
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="homeDropdown">
-                            <li><a class="dropdown-item" href="index.html#features">Features</a></li>
-                            <li><a class="dropdown-item" href="index.html#how-to-use">How It Works?</a></li>
-                            <li><a class="dropdown-item" href="index.html#testimonials">Testimonials</a></li>
-                            <li><a class="dropdown-item" href="index.html#team">Team</a></li>
-                            <li><a class="dropdown-item" href="index.html#contact">Contact</a></li>
-                        </ul>
-                    </li>
-                    <!-- Other nav items -->
-                    <li class="nav-item"><a class="nav-link" href="about-us.html">About-us</a></li>
-                    <li class="nav-item"><a class="nav-link" href="privacy.html">Privacy and Policies</a></li>
-                    <li class="nav-item"><a class="nav-link" href="login_register.html">Login / Register</a></li>
-                </ul>
+    <header>
+        <!-- //_____________________________________ Navbar _____________________________________// -->
+        <nav class="navbar navbar-expand-lg fixed-top bg-dark navbar-dark" id="mainNav" aria-label="Main Navigation">
+            <div class="container">
+                <a class="navbar-brand" href="index.html" aria-label="Go to Home Page">
+                    <img src="assets/img/logo2.png" alt="BookMySpot site logo" class="site-logo-style">
+                </a>
+                <button data-bs-toggle="collapse" data-bs-target="#navbarResponsive" class="navbar-toggler"
+                    type="button" aria-controls="navbarResponsive" aria-expanded="false"
+                    aria-label="Toggle navigation menu">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto text-uppercase">
+                        <!-- Home dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="index.html" id="homeDropdown" role="button"
+                                aria-expanded="false" aria-haspopup="true" aria-label="Home Section Menu">
+                                Home
+                            </a>
+                            <ul class="dropdown-menu bg-dark" aria-labelledby="homeDropdown">
+                                <li><a class="dropdown-item text-light" href="index.html#features"
+                                        aria-label="Features Section">Features</a></li>
+                                <li><a class="dropdown-item text-light" href="index.html#how-to-use"
+                                        aria-label="How It Works Section">How It Works?</a></li>
+                                <li><a class="dropdown-item text-light" href="index.html#testimonials"
+                                        aria-label="Testimonials Section">Testimonials</a></li>
+                                <li><a class="dropdown-item text-light" href="index.html#team"
+                                        aria-label="Team Section">Team</a></li>
+                                <li><a class="dropdown-item text-light" href="index.html#contact"
+                                        aria-label="Contact Section">Contact</a></li>
+                            </ul>
+                        </li>
+                        <!-- Other nav items -->
+                        <li class="nav-item"><a class="nav-link" href="about-us.html"
+                                aria-label="About Us Page">About-us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="privacy.html"
+                                aria-label="Privacy and Policies Page">Privacy and Policies</a></li>
+                        <li class="nav-item"><a class="nav-link" href="login_register.html"
+                                aria-label="Login or Register Page">Login / Register</a></li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
-    <main>
-        <!-- //_____________________________________ Header - Hero _____________________________________// -->
+        </nav>
+    </header>
 
-        <header class="masthead" style="background-image: url('assets/img/hero%20image.avif');">
+
+    <main>
+        <!-- //_____________________________________ Hero _____________________________________// -->
+        <div class="masthead home-hero-main" id="hero-masthead">
             <div class="container">
                 <div class="intro-text">
-                    <div class="intro-lead-in"><span
-                            style="border-radius: 10px;padding: 5px;color: var(--bs-dark);">Welcome
-                            To BookMySpot!</span></div>
-                    <div class="intro-heading text-uppercase"></div>
+                    <div class="intro-lead-in text-center pb-5 display-6">
+                        <span>WelcomeTo BookMySpot!</span>
+                    </div>
+                    <div class=" intro-heading text-uppercase"></div>
                     <div id="hero-search-container" class="container">
                         <form id="hero-search-form" class="row g-3 justify-content-center" action="search-result.html"
                             method="GET">
                             <div class="col-10">
-                                <input id="hero-search" type="text" class="form-control text-white border border-dark"
+                                <input id="hero-search" type="text"
+                                    class="form-control text-white border border-dark hero-search-input"
                                     placeholder="Enter postcode or location" aria-label="Search">
                             </div>
                             <div class="col-2">
-                                <button type="submit" class="btn btn-primary w-100 border border-dark"><i
+                                <button type="submit"
+                                    class="btn btn-primary w-100 border border-dark hero-search-btn"><i
                                         class="fas fa-search theme-dark-color"></i></button>
                             </div>
                         </form>
                     </div>
                 </div>
             </div>
-        </header>
-
+        </div>
         <!-- //_____________________________________ Features _____________________________________// -->
 
-        <section id="features" style="border-radius: 5px;">
+        <section id="features" class="aj-pt-150 aj-pb-150">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center">
@@ -123,7 +142,7 @@
 
         <!-- //_____________________________________ How Does It Work _____________________________________// -->
 
-        <section class="bg-light" id="how-to-use">
+        <section class="bg-light aj-pt-150 aj-pb-150" id="how-to-use">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center">
@@ -136,7 +155,7 @@
                         <ul class="list-group timeline">
                             <li class="list-group-item">
                                 <div class="timeline-image"><img class=" img-fluid"
-                                        src="assets/img/how_to_use/htu_1.png">
+                                        src="assets/img/how_to_use/htu_1.png" alt="how does is work image">
                                 </div>
                                 <div class="timeline-panel">
                                     <div class="timeline-heading">
@@ -151,7 +170,7 @@
                             </li>
                             <li class="list-group-item timeline-inverted">
                                 <div class="timeline-image"><img class=" img-fluid"
-                                        src="assets/img/how_to_use/htu_2.png">
+                                        src="assets/img/how_to_use/htu_2.png" alt="how does is work image">
                                 </div>
                                 <div class="timeline-panel">
                                     <div class="timeline-heading">
@@ -165,7 +184,7 @@
                             </li>
                             <li class="list-group-item">
                                 <div class="timeline-image"><img class=" img-fluid"
-                                        src="assets/img/how_to_use/htu_3.png">
+                                        src="assets/img/how_to_use/htu_3.png" alt="how does is work image">
                                 </div>
                                 <div class="timeline-panel">
                                     <div class="timeline-heading">
@@ -180,7 +199,7 @@
                             </li>
                             <li class="list-group-item timeline-inverted">
                                 <div class="timeline-image"><img class=" img-fluid"
-                                        src="assets/img/how_to_use/htu_4.png">
+                                        src="assets/img/how_to_use/htu_4.png" alt="how does is work image">
                                 </div>
                                 <div class="timeline-panel">
                                     <div class="timeline-heading">
@@ -206,7 +225,7 @@
 
         <!-- //_____________________________________ Testimonials _____________________________________// -->
 
-        <section id="testimonials">
+        <section id="testimonials" class="aj-pt-150 aj-pb-150">
             <div class="container py-4 py-xl-5">
                 <div class="row mb-5">
                     <div class="col-md-8 col-xl-6 text-center mx-auto">
@@ -262,39 +281,75 @@
 
         <!-- //_____________________________________ Team _____________________________________// -->
 
-        <section class="bg-light" id="team">
+        <section class="bg-light aj-pt-150 aj-pb-150" id="team" aria-labelledby="team-heading">
             <div class="container">
+                <h2 id="team-heading" class="text-center">Meet Our Team</h2>
                 <div class="row">
                     <div class="col-sm-4">
-                        <div class="team-member"><img class="rounded-circle mx-auto" src="assets/img/team/1.jpg">
+                        <div class="team-member">
+                            <img class="rounded-circle mx-auto" src="assets/img/team/1.jpg"
+                                alt="Kay Garland, Lead Designer">
                             <h4>Kay Garland</h4>
                             <p class="text-muted">Lead Designer</p>
                             <ul class="list-inline social-buttons">
-                                <li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li class="list-inline-item"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                <li class="list-inline-item">
+                                    <a href="#" aria-label="Follow Kay Garland on Twitter"><i
+                                            class="fa fa-twitter"></i></a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#" aria-label="Follow Kay Garland on Facebook"><i
+                                            class="fa fa-facebook"></i></a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#" aria-label="Connect with Kay Garland on LinkedIn"><i
+                                            class="fa fa-linkedin"></i></a>
+                                </li>
                             </ul>
                         </div>
                     </div>
+
                     <div class="col-sm-4">
-                        <div class="team-member"><img class="rounded-circle mx-auto" src="assets/img/team/2.jpg">
+                        <div class="team-member">
+                            <img class="rounded-circle mx-auto" src="assets/img/team/2.jpg"
+                                alt="Larry Parker, Lead Marketer">
                             <h4>Larry Parker</h4>
                             <p class="text-muted">Lead Marketer</p>
                             <ul class="list-inline social-buttons">
-                                <li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li class="list-inline-item"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                <li class="list-inline-item">
+                                    <a href="#" aria-label="Follow Larry Parker on Twitter"><i
+                                            class="fa fa-twitter"></i></a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#" aria-label="Follow Larry Parker on Facebook"><i
+                                            class="fa fa-facebook"></i></a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#" aria-label="Connect with Larry Parker on LinkedIn"><i
+                                            class="fa fa-linkedin"></i></a>
+                                </li>
                             </ul>
                         </div>
                     </div>
+
                     <div class="col-sm-4">
-                        <div class="team-member"><img class="rounded-circle mx-auto" src="assets/img/team/3.jpg">
-                            <h4>Diana Pertersen</h4>
+                        <div class="team-member">
+                            <img class="rounded-circle mx-auto" src="assets/img/team/3.jpg"
+                                alt="Diana Petersen, Lead Developer">
+                            <h4>Diana Petersen</h4>
                             <p class="text-muted">Lead Developer</p>
                             <ul class="list-inline social-buttons">
-                                <li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li class="list-inline-item"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                <li class="list-inline-item">
+                                    <a href="#" aria-label="Follow Diana Petersen on Twitter"><i
+                                            class="fa fa-twitter"></i></a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#" aria-label="Follow Diana Petersen on Facebook"><i
+                                            class="fa fa-facebook"></i></a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#" aria-label="Connect with Diana Petersen on LinkedIn"><i
+                                            class="fa fa-linkedin"></i></a>
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -302,14 +357,15 @@
             </div>
         </section>
 
+
         <!-- //_____________________________________ Contact _____________________________________// -->
 
-        <section id="contact" style="background-image:url('assets/img/map-image.png');">
+        <section id="contact" class="aj-pt-150 aj-pb-150">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center">
                         <h2 class="text-uppercase section-heading">Contact Us</h2>
-                        <h3 class="text-muted section-subheading">Lorem ipsum dolor sit amet consectetur.</h3>
+                        <h3 class="text-light section-subheading">We would love to hear your feedbacks...</h3>
                     </div>
                 </div>
                 <div class="row">
@@ -360,26 +416,39 @@
 
     <!-- //_____________________________________ Footer _____________________________________// -->
 
-    <footer class="home-footer-bg">
-        <div class=" container">
+    <footer class="home-footer-bg" aria-labelledby="footer-heading">
+        <div class="container">
             <div class="row">
-                <div class="col-md-4"><span class="copyright">Copyright&nbsp;© BookMySpot 2024</span></div>
+                <div class="col-md-4">
+                    <span id="footer-heading" class="copyright">Copyright&nbsp;© BookMySpot 2024</span>
+                </div>
                 <div class="col-md-4">
                     <ul class="list-inline social-buttons">
-                        <li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li class="list-inline-item"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                        <li class="list-inline-item">
+                            <a href="#" aria-label="Follow us on Twitter"><i class="fa fa-twitter"></i></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" aria-label="Follow us on Facebook"><i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" aria-label="Connect with us on LinkedIn"><i class="fa fa-linkedin"></i></a>
+                        </li>
                     </ul>
                 </div>
                 <div class="col-md-4">
                     <ul class="list-inline quicklinks">
-                        <li class="list-inline-item"><a href="privacy.html">Privacy Policy</a></li>
-                        <li class="list-inline-item"><a href="about-us.html">About US</a></li>
+                        <li class="list-inline-item">
+                            <a href="privacy.html" aria-label="Read our Privacy Policy">Privacy Policy</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="about-us.html" aria-label="Learn more about us">About Us</a>
+                        </li>
                     </ul>
                 </div>
             </div>
         </div>
     </footer>
+
 
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/agency.js"></script>

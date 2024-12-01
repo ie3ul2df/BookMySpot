@@ -18,40 +18,51 @@
 <body id="privacy-page-body" data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="54"
     class="d-flex flex-column min-vh-100">
 
-    <!-- //_____________________________________ Navbar _____________________________________// -->
-    <nav class="navbar navbar-expand-lg fixed-top bg-dark navbar-dark" id="mainNav">
-        <div class="container">
-            <a class="navbar-brand" href="index.html">
-                <img src="assets/img/logo2.png" alt="site logo" style="padding-bottom: 0px; height: 45px;">
-            </a>
-            <button data-bs-toggle="collapse" data-bs-target="#navbarResponsive" class="navbar-toggler" type="button"
-                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                <i class="fa fa-bars"></i>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ms-auto text-uppercase">
-                    <!-- Home dropdown -->
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="homeDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Home
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="homeDropdown">
-                            <li><a class="dropdown-item" href="index.html#features">Features</a></li>
-                            <li><a class="dropdown-item" href="index.html#how-to-use">How It Works?</a></li>
-                            <li><a class="dropdown-item" href="index.html#testimonials">Testimonials</a></li>
-                            <li><a class="dropdown-item" href="index.html#team">Team</a></li>
-                            <li><a class="dropdown-item" href="index.html#contact">Contact</a></li>
-                        </ul>
-                    </li>
-                    <!-- Other nav items -->
-                    <li class="nav-item"><a class="nav-link" href="about-us.html">About-us</a></li>
-                    <li class="nav-item"><a class="nav-link" href="privacy.html">Privacy and Policies</a></li>
-                    <li class="nav-item"><a class="nav-link" href="login_register.html">Login / Register</a></li>
-                </ul>
+    <header>
+        <!-- //_____________________________________ Navbar _____________________________________// -->
+        <nav class="navbar navbar-expand-lg fixed-top bg-dark navbar-dark" id="mainNav" aria-label="Main Navigation">
+            <div class="container">
+                <a class="navbar-brand" href="index.html" aria-label="Go to Home Page">
+                    <img src="assets/img/logo2.png" alt="BookMySpot site logo" class="site-logo-style">
+                </a>
+                <button data-bs-toggle="collapse" data-bs-target="#navbarResponsive" class="navbar-toggler"
+                    type="button" aria-controls="navbarResponsive" aria-expanded="false"
+                    aria-label="Toggle navigation menu">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto text-uppercase">
+                        <!-- Home dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="index.html" id="homeDropdown" role="button"
+                                aria-expanded="false" aria-haspopup="true" aria-label="Home Section Menu">
+                                Home
+                            </a>
+                            <ul class="dropdown-menu bg-dark" aria-labelledby="homeDropdown">
+                                <li><a class="dropdown-item text-light" href="index.html#features"
+                                        aria-label="Features Section">Features</a></li>
+                                <li><a class="dropdown-item text-light" href="index.html#how-to-use"
+                                        aria-label="How It Works Section">How It Works?</a></li>
+                                <li><a class="dropdown-item text-light" href="index.html#testimonials"
+                                        aria-label="Testimonials Section">Testimonials</a></li>
+                                <li><a class="dropdown-item text-light" href="index.html#team"
+                                        aria-label="Team Section">Team</a></li>
+                                <li><a class="dropdown-item text-light" href="index.html#contact"
+                                        aria-label="Contact Section">Contact</a></li>
+                            </ul>
+                        </li>
+                        <!-- Other nav items -->
+                        <li class="nav-item"><a class="nav-link" href="about-us.html"
+                                aria-label="About Us Page">About-us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="privacy.html"
+                                aria-label="Privacy and Policies Page">Privacy and Policies</a></li>
+                        <li class="nav-item"><a class="nav-link" href="login_register.html"
+                                aria-label="Login or Register Page">Login / Register</a></li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </header>
 
 
     <!--_____________________________________ Search Result Page Body _____________________________________-->
@@ -66,24 +77,36 @@
     </main>
     <!-- //_____________________________________ Footer _____________________________________// -->
 
-    <footer class="footer-bg"">
-        <div class=" container">
-        <div class="row">
-            <div class="col-md-4"><span class="copyright">Copyright&nbsp;© BookMySpot 2024</span></div>
-            <div class="col-md-4">
-                <ul class="list-inline social-buttons">
-                    <li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
-                    <li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
-                    <li class="list-inline-item"><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                </ul>
+    <footer class="footer-bg" aria-labelledby="footer-heading">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <span id="footer-heading" class="copyright">Copyright&nbsp;© BookMySpot 2024</span>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline social-buttons">
+                        <li class="list-inline-item">
+                            <a href="#" aria-label="Follow us on Twitter"><i class="fa fa-twitter"></i></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" aria-label="Follow us on Facebook"><i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" aria-label="Connect with us on LinkedIn"><i class="fa fa-linkedin"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline quicklinks">
+                        <li class="list-inline-item">
+                            <a href="privacy.html" aria-label="Read our Privacy Policy">Privacy Policy</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="about-us.html" aria-label="Learn more about us">About Us</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <div class="col-md-4">
-                <ul class="list-inline quicklinks">
-                    <li class="list-inline-item"><a href="privacy.html">Privacy Policy</a></li>
-                    <li class="list-inline-item"><a href="about-us.html">About US</a></li>
-                </ul>
-            </div>
-        </div>
         </div>
     </footer>
 
