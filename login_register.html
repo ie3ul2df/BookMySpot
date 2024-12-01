@@ -75,7 +75,8 @@
                                         </path>
                                     </svg>
                                 </div>
-                                <form class="text-center" method="post">
+                                <form class="text-center" id="loginForm" method="GET" action="form-submit.html">
+                                    <input type="hidden" name="formType" value="login">
                                     <div class="mb-3"><input class="form-control" type="email" name="email"
                                             placeholder="Email" /></div>
                                     <div class="mb-3"><input class="form-control" type="password" name="password"
@@ -123,7 +124,8 @@
                                         </path>
                                     </svg>
                                 </div>
-                                <form class="text-center" method="post">
+                                <form class="text-center" id="registerForm" method="GET" action="form-submit.html">
+                                    <input type="hidden" name="formType" value="register">
                                     <div class="mb-3"><input class="form-control" type="email" name="email"
                                             placeholder="Email" required /></div>
                                     <div class="mb-3"><input class="form-control" type="password" name="password"
@@ -185,7 +187,9 @@
                                         </path>
                                     </svg>
                                 </div>
-                                <form class="text-center" method="post">
+                                <form class="text-center" id="forgotPasswordForm" method="GET"
+                                    action="form-submit.html">
+                                    <input type="hidden" name="formType" value="forgotPassword">
                                     <div class="mb-3">
                                         <input class="form-control" type="email" name="email" placeholder="Email" />
                                     </div>
