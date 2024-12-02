@@ -209,6 +209,11 @@ Once the wireframes were finalized, high-fidelity mockups were created to define
 - **Search and Booking Page**: A user-friendly map interface with filters to help drivers find parking spaces easily.
 - **Profile and Admin Pages**: Organized with easy-to-use controls for managing listings, bookings, and account settings.
 
+### Home page Mockup
+
+"Below, I have included the homepage mockup as it contains the most elements. The other pages can be easily understood, as they follow the same theme throughout the website."
+[Homepage Mockup](assets/img/mockups/home_page_mockup.avif)
+
 ### Custom Colors
 
 In order to give the platform a unique identity, the default Bootstrap colors have been customized to fit the branding of **BookMySpot**. The primary color scheme has been adjusted to incorporate a warm, yellow tone for the primary actions, and a dark theme for text and buttons.
