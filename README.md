@@ -13,7 +13,8 @@
 9. [Deployment](#Deployment)
 10. [Credits](#credits)
 11. [License](#license)
-12. [Contact Me](#contact)
+12. [Wireframes](#wireframes)
+13. [Contact Me](#contact)
 
 ## Description
 
@@ -435,6 +436,32 @@ The deployed version of this project can be accessed at the following URL:
 ### Licenses
 
 - MIT License for open-source libraries: [MIT License](https://opensource.org/licenses/MIT)
+
+## Wireframes
+
+Below are the wireframes for the main pages of the BookMySpot website.
+
+### Homepage Wireframe
+
+The Homepage wireframe outlines the basic structure and layout of the main landing page. It includes navigation, a hero section, features, testimonials, and a footer. This page is designed to give visitors an overview of the platform.
+
+![Homepage Wireframe](assets/img/wireframes/Home_Page.avif)
+
+---
+
+### Login & Register Page Wireframe
+
+The Register page wireframe displays the layout of the user registration form, including fields for personal information, username, password, and a submit button. This page is where new users will sign up for the platform. This page is incuded 3 diffrent forms for login, register and forgot password which are switching with javascript by the links on the buttom of the forms.
+
+![Register Page Wireframe](assets/img/wireframes/Login_Register.avif)
+
+---
+
+### About Us Page Wireframe
+
+The About Us page wireframe displays the layout for the company’s introduction. It includes sections about the team, the mission of the platform, and how BookMySpot works. This page is designed to help users understand the purpose of the platform and the people behind it.
+
+![About Us Page Wireframe](assets/img/wireframes/About_Us.avif)
 
 ## Contact
 
