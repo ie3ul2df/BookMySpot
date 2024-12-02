@@ -212,7 +212,7 @@ Once the wireframes were finalized, high-fidelity mockups were created to define
 ### Home page Mockup
 
 "Below, I have included the homepage mockup as it contains the most elements. The other pages can be easily understood, as they follow the same theme throughout the website."
-[Homepage Mockup](assets/img/mockups/home_page_mockup.avif)
+![Homepage Mockup](assets/img/mockups/home_page_mockup.avif)
 
 ### Custom Colors
 
