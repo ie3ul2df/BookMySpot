@@ -182,7 +182,7 @@ Below are the wireframes for the main pages of the BookMySpot website.
 
 The Homepage wireframe outlines the basic structure and layout of the main landing page. It includes navigation, a hero section, features, testimonials, and a footer. This page is designed to give visitors an overview of the platform.
 
-![Homepage Wireframe](assets/img/wireframes/Home_Page.avif)
+![Homepage Wireframe](assets/img/wireframes/home_page.avif)
 
 ---
 
@@ -190,7 +190,7 @@ The Homepage wireframe outlines the basic structure and layout of the main landi
 
 The Register page wireframe displays the layout of the user registration form, including fields for personal information, username, password, and a submit button. This page is where new users will sign up for the platform. This page is incuded 3 diffrent forms for login, register and forgot password which are switching with javascript by the links on the buttom of the forms.
 
-![Register Page Wireframe](assets/img/wireframes/Login_Register.avif)
+![Register Page Wireframe](assets/img/wireframes/login_register.avif)
 
 ---
 
@@ -198,7 +198,7 @@ The Register page wireframe displays the layout of the user registration form, i
 
 The About Us page wireframe displays the layout for the company’s introduction. It includes sections about the team, the mission of the platform, and how BookMySpot works. This page is designed to help users understand the purpose of the platform and the people behind it.
 
-![About Us Page Wireframe](assets/img/wireframes/About_Us.avif)
+![About Us Page Wireframe](assets/img/wireframes/about_us.avif)
 
 ### Mockups
 
