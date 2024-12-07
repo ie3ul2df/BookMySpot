@@ -386,7 +386,13 @@
                                     </div>
                                     <div class="form-group mb-3">
                                         <input class="form-control" type="tel" id="phone" name="phone"
-                                            placeholder="Your Phone *" required>
+                                            placeholder="Your Phone *" required pattern="[0-9]{10}"
+                                            title="Enter a valid 10-digit phone number">
+                                        <script>
+                                            document.getElementById("phone").addEventListener("input", function (e) {
+                                                this.value = this.value.replace(/[^0-9]/g, ""); // Remove non-numeric characters
+                                            });
+                                        </script>
                                         <small class="form-text text-danger lead"></small>
                                     </div>
                                 </div>
