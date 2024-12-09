@@ -371,7 +371,14 @@ To ensure the quality and compliance of the code with web standards, the followi
 
 ### Bug Tracking
 
-- Any bugs found during testing were logged and resolved. If you could find any bug please use [Contact](#Contact) part and inform me. Thanks.
+- **Footer Alignment Issue**:  
+  The footer was not staying at the bottom of the page on short-content pages. This issue was resolved by using Bootstrap's `d-flex` class on the `<body>` element and `flex-grow-1` on the `<main>` element, ensuring the footer remains anchored to the bottom of the viewport.
+
+- **Navbar Active Page Highlighting**:  
+  The navbar did not correctly indicate the active page or section on load or during scrolling. The issue was resolved by implementing JavaScript logic to dynamically update the active state of navbar links and dropdown items based on the current URL and scroll position.
+
+- **Contact Form Field Validation**:  
+  The contact form lacked proper input validation, allowing invalid data to be submitted. This was resolved by adding appropriate HTML5 attributes (`type`, `required`, and `pattern`) to ensure that the inputs for name, email, and phone adhere to valid formats.
 
 ### Testing Results
 
@@ -379,7 +386,7 @@ To ensure the quality and compliance of the code with web standards, the followi
 - **CSS Validator**: A few minor warnings were addressed, ensuring proper syntax and consistency across all styles.
 - **Autoprefixer**: All relevant CSS rules were successfully prefixed to ensure compatibility across browsers.
 
-## Site-map
+## Future Full Site-map
 
 This project going to have all the below pages in the next releases:
 
