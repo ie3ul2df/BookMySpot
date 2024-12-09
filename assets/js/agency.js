@@ -8,12 +8,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Function to highlight the active page link
   const setActivePage = () => {
-    navLinks.forEach(link => {
+    navLinks.forEach((link) => {
       const linkHref = link.href;
 
       // Special handling for Home (index.html)
       if (
-        (currentURL.includes("index.html") && linkHref.includes("index.html")) || // Matches index.html
+        (currentURL.includes("index.html") &&
+          linkHref.includes("index.html")) || // Matches index.html
         (currentURL === linkHref && linkHref.includes("#")) || // Matches sections on the same page
         (currentURL.endsWith("/") && linkHref.includes("index.html")) // Root URL (e.g., https://example.com/)
       ) {
@@ -26,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     // Also check the dropdown items for active class
-    dropdownItems.forEach(item => {
+    dropdownItems.forEach((item) => {
       const itemHref = item.href;
 
       if (currentURL === itemHref) {
@@ -41,19 +42,25 @@ document.addEventListener("DOMContentLoaded", function () {
   const updateActiveNav = () => {
     let currentSection = "";
 
-    sections.forEach(section => {
+    sections.forEach((section) => {
       const sectionTop = section.offsetTop - 100; // Offset for fixed navbar height
       const sectionHeight = section.offsetHeight;
       const scrollPosition = window.pageYOffset;
 
-      if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
+      if (
+        scrollPosition >= sectionTop &&
+        scrollPosition < sectionTop + sectionHeight
+      ) {
         currentSection = section.getAttribute("id");
       }
     });
 
     // Update the active class for section-based links (navbar links)
-    navLinks.forEach(link => {
-      if (link.getAttribute("href") && link.getAttribute("href").includes(`#${currentSection}`)) {
+    navLinks.forEach((link) => {
+      if (
+        link.getAttribute("href") &&
+        link.getAttribute("href").includes(`#${currentSection}`)
+      ) {
         link.classList.add("active");
       } else {
         link.classList.remove("active");
@@ -61,8 +68,11 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     // Update the active class for section-based links (dropdown items)
-    dropdownItems.forEach(item => {
-      if (item.getAttribute("href") && item.getAttribute("href").includes(`#${currentSection}`)) {
+    dropdownItems.forEach((item) => {
+      if (
+        item.getAttribute("href") &&
+        item.getAttribute("href").includes(`#${currentSection}`)
+      ) {
         item.classList.add("active");
       } else {
         item.classList.remove("active");
@@ -82,10 +92,10 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   // Add click event listeners to navbar links for immediate active feedback
-  navLinks.forEach(link => {
+  navLinks.forEach((link) => {
     link.addEventListener("click", function () {
       // Clear active classes from all links
-      navLinks.forEach(nav => nav.classList.remove("active"));
+      navLinks.forEach((nav) => nav.classList.remove("active"));
 
       // Add active class to clicked link
       this.classList.add("active");
@@ -93,70 +103,13 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   // Add click event listeners to dropdown items for immediate active feedback
-  dropdownItems.forEach(item => {
+  dropdownItems.forEach((item) => {
     item.addEventListener("click", function () {
       // Clear active classes from all dropdown items
-      dropdownItems.forEach(dropdown => dropdown.classList.remove("active"));
+      dropdownItems.forEach((dropdown) => dropdown.classList.remove("active"));
 
       // Add active class to clicked dropdown item
       this.classList.add("active");
     });
   });
 });
-
-
-//_____________________________________ Login / Register / Forgot Password toggle _____________________________________//
-document.addEventListener('DOMContentLoaded', function () {
-  // Select all forms
-  const loginForm = document.getElementById('site-login-form');
-  const registerForm = document.getElementById('site-register-form');
-  const forgotPasswordForm = document.getElementById('site-forgot-password-form');
-
-  // Select all links with unique IDs
-  const showLoginFormLink = document.querySelectorAll('#show-login-form');
-  const showRegisterFormLink = document.querySelectorAll('#show-register-form');
-  const showForgotPasswordFormLogin = document.getElementById('show-forgot-password-form-login');
-  const showForgotPasswordFormRegister = document.getElementById('show-forgot-password-form-register');
-
-  // Utility function to show one form and hide others
-  function showForm(formToShow) {
-      [loginForm, registerForm, forgotPasswordForm].forEach(form => {
-          form.classList.add('d-none'); // Hide all forms
-      });
-      formToShow.classList.remove('d-none'); // Show the selected form
-  }
-
-  // Add event listeners for links
-
-  // Login Form Links
-  showLoginFormLink.forEach(link => {
-      link.addEventListener('click', function (event) {
-          event.preventDefault();
-          showForm(loginForm);
-      });
-  });
-
-  // Register Form Links
-  showRegisterFormLink.forEach(link => {
-      link.addEventListener('click', function (event) {
-          event.preventDefault();
-          showForm(registerForm);
-      });
-  });
-
-  // Forgot Password Links
-  if (showForgotPasswordFormLogin) {
-      showForgotPasswordFormLogin.addEventListener('click', function (event) {
-          event.preventDefault();
-          showForm(forgotPasswordForm);
-      });
-  }
-
-  if (showForgotPasswordFormRegister) {
-      showForgotPasswordFormRegister.addEventListener('click', function (event) {
-          event.preventDefault();
-          showForm(forgotPasswordForm);
-      });
-  }
-});
-
