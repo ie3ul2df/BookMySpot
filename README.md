@@ -37,12 +37,31 @@ BookMySpot is a web application designed to connect drivers in need of parking s
 ### Current Features
 
 - **Home Page**:
-  - Home page and all the pages navbar are responsive for large,tablet and phone sizes:
-    ![About Us Page Wireframe](assets/img/current-features/home/responsive-navbar-1.JPG)
-    ![About Us Page Wireframe](assets/img/current-features/home/responsive-navbar-2.JPG)
-- **User Experience Design (UX)**:
-  - Wireframes for the platform have been created to guide development.
-  - Pages currently available: Home, Login/Register, and Privacy Policy.
+
+  - The home page and all the pages' navbar are fully responsive, ensuring seamless usability across large screens, tablets, and mobile devices:  
+    ![Responsive Navbar on Large Screens](assets/img/current-features/home/responsive-navbar-1.JPG)  
+    ![Responsive Navbar on Mobile Screens](assets/img/current-features/home/responsive-navbar-2.JPG)
+
+  - Hero section highlighting the main introduction area where a search form will be incorporated in future updates:  
+    ![Hero Section of Home Page](assets/img/current-features/home/hero-section.JPG)
+
+  - Features section providing an overview of the app’s primary functionalities and advantages:  
+    ![Features Section of Home Page](assets/img/current-features/home/features.JPG)
+
+  - "How Does It Work" section describing the step-by-step process for finding and booking parking spots:  
+    ![How Does It Work Section](assets/img/current-features/home/how-does-it-work.JPG)
+
+  - Team section presenting the developers and key contributors behind the website:  
+    ![Team Section on Home Page](assets/img/current-features/home/home-team-section.JPG)
+
+  - Testimonials section showcasing feedback and reviews from customers:  
+    ![Testimonials Section on Home Page](assets/img/current-features/home/testimonial.JPG)
+
+  - Contact Us section offering a form for users to reach out with inquiries or feedback:  
+    ![Contact Form Section on Home Page](assets/img/current-features/home/home-contact-form.JPG)
+
+  - Home page footer, uniquely styled compared to other pages:  
+    ![Footer Section on Home Page](assets/img/current-features/home/home-footer.JPG)
 
 ### Planned Features (In Progress)
 
