@@ -63,6 +63,21 @@ BookMySpot is a web application designed to connect drivers in need of parking s
   - Home page footer, uniquely styled compared to other pages:  
     ![Footer Section on Home Page](assets/img/current-features/home/home-footer.JPG)
 
+- **About Us Page**:
+
+  - Hero section featuring a brief introduction to the purpose of the page:  
+    ![Hero Section of About Us Page](assets/img/current-features/about/about-hero.JPG)
+
+  - "Who We Are" section highlighting the team and their backgrounds:  
+    ![Who We Are Section on About Us Page](assets/img/current-features/about/who-we-are.JPG)
+
+  - Values section showcasing the principles that drive trust, collaboration, and innovation:  
+    ![Values Section on About Us Page](assets/img/current-features/about/values.JPG)
+
+  - Team section providing contact links for team members to foster collaborations. This section includes interactive modals, allowing users to click on team members' details for more information and a brief description:  
+    ![Team Section with Modals on About Us Page](assets/img/current-features/about/about-team.JPG)
+    ![Team Section with Modals on About Us Page](assets/img/current-features/about/about-team-modal.JPG)
+
 ### Planned Features (In Progress)
 
 - **Database Integration**:
