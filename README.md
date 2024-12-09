@@ -22,7 +22,7 @@ BookMySpot is a web application designed to connect drivers in need of parking s
 - Enhance user experience with a responsive and accessible design.
 - Foster trust between users through a rating and review system.
 
-## Features
+## Future Features
 
 - **Admin Panel**:
   - Allows administrators to manage users and parking listings, ensuring smooth platform operation.
@@ -36,8 +36,10 @@ BookMySpot is a web application designed to connect drivers in need of parking s
 
 ### Current Features
 
-- **Responsive Design**:
-  - Fully optimized for mobile, tablet, and desktop.
+- **Home Page**:
+  - Home page and all the pages navbar are responsive for large,tablet and phone sizes:
+    ![About Us Page Wireframe](assets/img/current-features/home/responsive-navbar-1.JPG)
+    ![About Us Page Wireframe](assets/img/current-features/home/responsive-navbar-2.JPG)
 - **User Experience Design (UX)**:
   - Wireframes for the platform have been created to guide development.
   - Pages currently available: Home, Login/Register, and Privacy Policy.
