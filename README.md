@@ -151,6 +151,33 @@ This project utilizes a range of tools and technologies to ensure a seamless and
    ```
 3. Open `index.html` in your browser.
 
+### Deployment
+
+Host on a Local Server
+To run the project properly, it is recommended to use a local server such as Live Server in VSCode or a tool like XAMPP.
+
+- Using Live Server (VSCode):
+
+  - Open the project folder in VSCode.
+  - Install the Live Server extension from the VSCode marketplace.
+  - Right-click on index.html and select Open with Live Server.
+
+- Using XAMPP:
+
+  - Copy the project folder to the htdocs directory in your XAMPP installation.
+  - Start the Apache server using the XAMPP Control Panel.
+  - Access the project by navigating to http://localhost/bookmyspot in your web browser.
+  - Optional Deployment to GitHub Pages
+
+- To make the project publicly accessible online:
+
+  - Push the project to a GitHub repository (if not already done).
+  - Go to the repository settings on GitHub.
+  - Under the Pages section, set the branch to main (or the branch where your project is stored) and save.
+    The project will be accessible at:
+    https://<your-username>.github.io/BookMySpot/
+    Now your project is ready for testing and live deployment!
+
 ### User Stories
 
 #### Administrator
