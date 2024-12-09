@@ -1,11 +1,5 @@
 /*--------------- global styles ---------------*/
 
-@media (min-width: 768px) {
-  section {
-      padding: 75px 0;
-  }
-}
-
 .aj-mt-50{
   margin-top: 50px;
 }
@@ -127,19 +121,6 @@ div#hero-search-container {
 }
 
 
-@media only screen and (max-width: 992px) {
-  form#hero-search-form {
-    width: 100%;
-  }
-}
-
-@media only screen and (min-width: 992px) {
-  form#hero-search-form {
-    width: 50%;
-  }
-}
-
-
 button i.fas {
   display: flex;
   align-items: center;
@@ -176,21 +157,7 @@ button i.fas {
   width: 100px;
 }
 
-@media only screen and (max-width: 992px) {
-  .timeline>li .timeline-image img.img-fluid {
-    height: 50px;
-    width: 50px;
-  }
-  .timeline>li .timeline-image {
-    top: 50px !important;
-  }
-}
 
-@media only screen and (max-width: 768px) {
-  .timeline>li .timeline-image {
-    top: 25px !important;
-  }
-}
 
 #how-to-use > div > div:nth-child(2) > div > ul > li:nth-child(5) > div > h4 {
   color: #fed136;
@@ -205,12 +172,6 @@ section#team {
   padding: 150px 0 150px 0;
 }
 
-@media only screen and (max-width: 575px) {
-  section#team {
-    padding: 50px 0 50px 0;
-  }
-}
-
 
 /*--------------- Social media icons hover ---------------*/
 .list-inline-item a {
@@ -222,8 +183,6 @@ section#team {
   color: #212529; 
   transform: translateY(-5px); 
 }
-
-
 
 
 /*--------------- Home Page - Contact form ---------------*/
@@ -253,20 +212,6 @@ section#contact .form-group textarea.form-control {
   height: 230px;
 }
 
-/* --------------- Login page --------------- */
-
-
-/* body#login-page-body {
-  background-image: url(https://i.pinimg.com/originals/01/a0/c3/01a0c3ccfbad7b1a116c020cfc669352.gif);
-  background-size: cover;
-  min-height: 100vh;
-} */
-
-.login-register-btns:hover{
-  color: var(--bs-dark);
-  scale: .95;
-}
-
 
 /*--------------- about us - team member - clickable modal ---------------*/
 img.card-img-top.rounded-circle.mx-auto.mt-4 {
@@ -284,3 +229,47 @@ img.card-img-top.rounded-circle.mx-auto.mt-4:hover {
   width: 150px;
   height: 150px;
 }
+
+/*--------------- Screen size controll ---------------*/
+
+@media only screen and (max-width: 575px) {
+  section#team {
+    padding: 50px 0 50px 0;
+  }
+}
+
+
+@media only screen and (max-width: 768px) {
+  .timeline>li .timeline-image {
+    top: 25px !important;
+  }
+}
+
+@media (min-width: 768px) {
+  section {
+      padding: 75px 0;
+  }
+}
+
+
+@media only screen and (max-width: 992px) {
+  form#hero-search-form {
+    width: 100%;
+  }
+
+  .timeline>li .timeline-image img.img-fluid {
+    height: 50px;
+    width: 50px;
+  }
+  .timeline>li .timeline-image {
+    top: 50px !important;
+  }
+
+}
+
+@media only screen and (min-width: 992px) {
+  form#hero-search-form {
+    width: 50%;
+  }
+}
+
