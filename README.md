@@ -77,6 +77,7 @@ BookMySpot is a web application designed to connect drivers in need of parking s
   - Team section providing contact links for team members to foster collaborations. This section includes interactive modals, allowing users to click on team members' details for more information and a brief description:  
     ![Team Section with Modals on About Us Page](assets/img/current-features/about/about-team.JPG)
     ![Team Section with Modals on About Us Page](assets/img/current-features/about/about-team-modal.JPG)
+    ![Team Section with Modals on About Us Page](assets/img/current-features/about/social-media-btns.JPG)
 
 - **Privacy Policies Page**:
 
