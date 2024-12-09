@@ -111,13 +111,23 @@ BookMySpot is a web application designed to connect drivers in need of parking s
 
 ## Technologies
 
-### Technologies Used So Far
+### Used Technologies
 
-- HTML
-- CSS
-- JavaScript
-- Bootstrap 5.3
-- Font Awesome 5
+This project utilizes a range of tools and technologies to ensure a seamless and professional development process, optimized performance, and user-friendly design. Below is a breakdown of the technologies used:
+
+- **HTML**: For structuring the web pages and content.
+- **CSS**: For styling and layout, ensuring a visually appealing and responsive design.
+- **JavaScript**: For adding interactivity and dynamic features to the website.
+- **Bootstrap 5.3**: A front-end framework used for building responsive and mobile-first layouts efficiently.
+- **Font Awesome 5**: For incorporating scalable vector icons that enhance the visual design and usability.
+- **VSCode**: A lightweight, powerful code editor used for writing, debugging, and managing the codebase.
+- **GitHub**: A version control platform used for hosting the project repository and managing code changes collaboratively.
+- **Snipping Tools**: For capturing screenshots to document features and workflows.
+- **JPEG Imager**: Used to reduce image sizes, optimizing website performance and load times.
+- **XL Converter**: A tool for compressing and converting images to the `.avif` format, further reducing image sizes while maintaining quality.
+- **ChatGPT**: Assisted in identifying and resolving errors, as well as refining and rephrasing texts for improved clarity and professionalism.
+- **GitHub Desktop**: A graphical interface for Git, simplifying version control tasks such as commits, branching, and syncing with the remote repository.
+- **Balsamiq**: A wireframing tool used to create low-fidelity designs that serve as blueprints for the project's layout and user interface.
 
 ## Technologies Will Be Used
 
