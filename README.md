@@ -1,20 +1,5 @@
 # BookMySpot
 
-## Table of Contents
-
-1. [Description](#Description)
-2. [Features](#features)
-3. [Technologies](#technologies-used)
-4. [Installation](#installation)
-5. [User Stories](#user-stories)
-6. [UX Design](#UX-Design)
-7. [Testing](#Testing)
-8. [Site-map](#site-map)
-9. [Deployment](#Deployment)
-10. [Credits](#credits)
-11. [License](#license)
-12. [Contact Me](#contact)
-
 ## Description
 
 BookMySpot is a web application designed to connect drivers in need of parking spaces with owners willing to rent out their spots. It focuses on providing a seamless and user-friendly experience for all types of users, including administrators, parking space owners, and drivers.
