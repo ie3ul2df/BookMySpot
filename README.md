@@ -78,6 +78,18 @@ BookMySpot is a web application designed to connect drivers in need of parking s
     ![Team Section with Modals on About Us Page](assets/img/current-features/about/about-team.JPG)
     ![Team Section with Modals on About Us Page](assets/img/current-features/about/about-team-modal.JPG)
 
+- **Privacy Policies Page**:
+
+  - Hero section featuring a brief introduction to the purpose of the page:  
+    ![Hero Section of Privacy Policies Page](assets/img/current-features/privacy/privacy-hero.JPG)
+
+  - Privacy and conditions section providing explanations of the platform's policies:  
+    ![Privacy Context Section on Privacy Policies Page](assets/img/current-features/privacy/privacy-context.JPG)  
+    ![Terms and Conditions Section on Privacy Policies Page](assets/img/current-features/privacy/terms-and-conds.JPG)
+
+  - Frequently Asked Questions (FAQ) section at the end of the page:  
+    ![FAQ Section on Privacy Policies Page](assets/img/current-features/privacy/faq.JPG)
+
 ### Planned Features (In Progress)
 
 - **Database Integration**:
