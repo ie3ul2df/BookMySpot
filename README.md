@@ -90,6 +90,11 @@ BookMySpot is a web application designed to connect drivers in need of parking s
   - Frequently Asked Questions (FAQ) section at the end of the page:  
     ![FAQ Section on Privacy Policies Page](assets/img/current-features/privacy/faq.JPG)
 
+- **Form Submit Page**:
+
+  - After submitting the contact form on the Home Page, users are redirected to the Form Submit Page. In the future, this will send emails and connect to the database. Currently, it captures the input fields and displays them in a table format, as shown below:  
+    ![Submitted Form Data Display on Form Submit Page](assets/img/current-features/form-submit/submited-form.JPG)
+
 ### Planned Features (In Progress)
 
 - **Database Integration**:
