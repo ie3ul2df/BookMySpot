@@ -392,31 +392,34 @@ To ensure the quality and compliance of the code with web standards, the followi
 
 1. **HTML Validation**:
 
-   - Tool: [W3C HTML Validator](https://validator.w3.org/)
-   - This tool was used to validate the HTML code to ensure it adheres to W3C standards, helping to detect and fix any potential issues in the markup.
+   Tool: [W3C HTML Validator](https://validator.w3.org/)
+   This tool was used to validate the HTML code to ensure it adheres to W3C standards, helping to detect and fix any potential issues in the markup.
+
    - Home Page, index.html file:
-     ![index.html code validate screenshot image](assets/img/current-features/code-validate/index.html-validator.w3.org-image.JPG)
+     ![index.html code validate screenshot image](assets/img/code-validate/index.html-validator.w3.org-image.JPG)
    - About us Page, about-us.html file:
-     ![about-us.html code validate screenshot image](assets/img/current-features/code-validate/about-us.html-validator.w3.org-image.JPG)
+     ![about-us.html code validate screenshot image](assets/img/code-validate/about-us.html-validator.w3.org-image.JPG)
    - Privacy and Policies Page, privacy.html file:
-     ![privacy.html code validate screenshot image](assets/img/current-features/code-validate/privacy.html-validator.w3.org-image.JPG)
+     ![privacy.html code validate screenshot image](assets/img/code-validate/privacy.html-validator.w3.org-image.JPG)
    - Form submit Page, privacy.html file:
-     ![form-submit.html code validate screenshot image](assets/img/current-features/code-validate/form-submit.html-validator.w3.org-image.JPG)
+     ![form-submit.html code validate screenshot image](assets/img/code-validate/form-submit.html-validator.w3.org-image.JPG)
 
 2. **JavaScript Validation**:
 
-- Used [Jest](https://jestjs.io/) for unit tests.
-  - agancy.js file:
-    ![agancy.js code validate screenshot image](assets/img/current-features/code-validate/agancy.js-jshint.com-image.JPG)
-  - form-submit.js file:
-    ![form-submit.js code validate screenshot image](assets/img/current-features/code-validate/form-submit.js-jshint.com-image.JPG)
+Used [Jest](https://jestjs.io/) for unit tests.
+
+- agancy.js file:
+  ![agancy.js code validate screenshot image](assets/img/code-validate/agancy.js-jshint.com-image.JPG)
+- form-submit.js file:
+  ![form-submit.js code validate screenshot image](assets/img/code-validate/form-submit.js-jshint.com-image.JPG)
 
 3. **CSS Validation**:
 
-   - Tool: [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
-   - The CSS code was validated using this tool to ensure that the stylesheets are free from syntax errors and compliant with CSS standards.
-   - Style.css file:
-     ![style.css code validate screenshot image](assets/img/current-features/code-validate/style.css-jigsaw.w3.org-image.JPG)
+Tool: [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+The CSS code was validated using this tool to ensure that the stylesheets are free from syntax errors and compliant with CSS standards.
+
+- Style.css file:
+  ![style.css code validate screenshot image](assets/img/code-validate/style.css-jigsaw.w3.org-image.JPG)
 
 ### Bug Tracking
 
