@@ -455,7 +455,31 @@ The CSS code was validated using this tool to ensure that the stylesheets are fr
 - **CSS Validator**: A few minor warnings were addressed, ensuring proper syntax and consistency across all styles.
 - **Autoprefixer**: All relevant CSS rules were successfully prefixed to ensure compatibility across browsers.
 
-## Future Full Site-map
+## Site-map
+
+### Current Site-map
+
+- **Home**
+  - Hero
+  - Features
+  - How Does It Work?
+  - Testimonials
+  - Meet Our Team
+  - Contact Us
+- **About Us**
+  - Hero
+  - Who We Are
+  - Our Values
+  - Meet Our Team
+- **Privacy and Policies**
+  - Hero
+  - Privacy Policy
+  - Terms and Conditions
+  - Frequently Asked Questions
+- **Form Submit**
+  - submited form table
+
+### Future Full Site-map
 
 This project going to have all the below pages in the next releases:
 
@@ -556,7 +580,7 @@ The deployed version of this project can be accessed at the following URL:
 - Code snippets for form validation from Stack Overflow: [Stack Overflow](https://stackoverflow.com/)
 - Solution for async/await in JavaScript from GitHub Gists: [GitHub Gists](https://gist.github.com/)
 
-### Open Source Contributions
+### Future Open Source Contributions
 
 - Express.js for server-side framework: [Express.js](https://expressjs.com/)
 - Node.js for backend platform: [Node.js](https://nodejs.org/)
