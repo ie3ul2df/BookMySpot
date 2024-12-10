@@ -385,20 +385,22 @@ To ensure the quality and compliance of the code with web standards, the followi
 
 ### **Automated Testing**:
 
-- **Lighthouse Report**:
-  Home Page:
+- **Lighthouse Report**
+
+  **Home Page:**
+
   - Performance : 100/100
   - Accessibility : 100/100
   - Best Practices : 96/100
   - SEO : 100/100
     ![home lighthouse screenshot image](assets/img/code-validate/home-lighthouse-screenshot.JPG)
-    About Page:
+    **About Page:**
   - Performance : 100/100
   - Accessibility : 100/100
   - Best Practices : 100/100
   - SEO : 100/100
     ![about lighthouse screenshot image](assets/img/code-validate/about-lighthouse-screenshot.JPG)
-    Privacy Page:
+    **Privacy Page:**
   - Performance : 100/100
   - Accessibility : 100/100
   - Best Practices : 100/100
