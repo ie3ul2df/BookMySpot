@@ -383,12 +383,27 @@ To ensure the quality and compliance of the code with web standards, the followi
   - The website was tested on multiple devices (mobile, tablet, desktop) to ensure that it is fully responsive.
   - Browser testing was conducted on the latest versions of Chrome, Firefox, Safari, and Edge to ensure compatibility.
 
-- **Automated Testing**:
+### **Automated Testing**:
 
 - **Lighthouse Report**:
-  - Performance: 90/100
-  - Accessibility: 95/100
-  - Best Practices: 80/100
+  Home Page:
+  - Performance : 100/100
+  - Accessibility : 100/100
+  - Best Practices : 96/100
+  - SEO : 100/100
+    ![home lighthouse screenshot image](assets/img/code-validate/home-lighthouse-screenshot.JPG)
+    About Page:
+  - Performance : 100/100
+  - Accessibility : 100/100
+  - Best Practices : 100/100
+  - SEO : 100/100
+    ![about lighthouse screenshot image](assets/img/code-validate/about-lighthouse-screenshot.JPG)
+    Privacy Page:
+  - Performance : 100/100
+  - Accessibility : 100/100
+  - Best Practices : 100/100
+  - SEO : 100/100
+    ![Privacy lighthouse screenshot image](assets/img/code-validate/privacy-lighthouse-screenshot.JPG)
 
 1. **HTML Validation**:
 
