@@ -570,12 +570,6 @@ The deployed version of this project can be accessed at the following URL:
 - Google Maps API for map features, will be added in the next releases: [Google Maps API](https://developers.google.com/maps)
 - Stripe API for payments, will be added in the next releases: [Stripe API](https://stripe.com/docs/api)
 
-### Tools & Software
-
-- Visual Studio Code for code editor: [Visual Studio Code](https://code.visualstudio.com/)
-- GitHub for version control: [GitHub](https://github.com/)
-- Git for version control: [Git](https://git-scm.com/)
-
 ### Licenses
 
 - MIT License for open-source libraries: [MIT License](https://opensource.org/licenses/MIT)
